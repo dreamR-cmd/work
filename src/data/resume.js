@@ -1,6 +1,6 @@
 // 简历全部文案集中在此，改内容只需改这个文件
 export const profile = {
-  name: '123',
+  name: '温少豪',
   role: 'Java 后端开发工程师',
   subRole: 'AI 应用开发',
   brief:
