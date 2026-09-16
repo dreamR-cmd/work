@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>温少豪 · Java 后端开发工程师 &amp; AI 应用开发</title>
+    <meta name="description" content="温少豪 — 3 年 Java 后端开发经验，Spring Cloud 微服务、高并发与分布式一致性，企业级 RAG 等 AI 应用落地。" />
+    <meta property="og:title" content="温少豪 · Java 后端开发工程师 &amp; AI 应用开发" />
+    <meta property="og:description" content="Spring Cloud 微服务 / 高并发 / 千万级数据迁移 / RAG 等 AI 应用落地" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232c6e8f'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3EW%3C/text%3E%3C/svg%3E" />
+    <script>
+      // 首帧渲染前确定主题，避免暗色模式下的闪白（支持 ?theme=dark 强制预览）
+      ;(function () {
+        var t = null
+        try {
+          t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('theme')
+        } catch (e) {}
+        if (!t) t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        document.documentElement.setAttribute('data-theme', t)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
